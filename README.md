@@ -17,11 +17,16 @@ Once the item has been scrapped at all three websites, the PandasGui will open a
 contain the name of the item, the price, the star rating and the store name that it was found at. The Pandasgui will allow for easy data manipulation of the dataframe.
 
 Know functional UPC codes:
+	
 	0001300000640
 
 Price Comparison Tool Authors:
+
 Carolyn Gerzina
+
 Yash Patel
+
 Kenneth West
+
 
 University of Florida# PriceComparisonTool

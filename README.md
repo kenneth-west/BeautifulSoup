@@ -13,7 +13,7 @@ GUI Description: Once the user initiates the program, a small window named websc
 For the most accurate results type in the UPC code of the item. This is not necessary but helps the website narrow down the list of items being searched.
 Once the user is done typing the item description, hit Run. This will prompt the webscrapping application. The webscrapper item box will stay open throughout 
 the run. The item will then be searched through Walmart, Amazon and Krogers website. This process usually takes about 3 to 5 minutes to scrape the websites.
-Once the item has been scrapped at all three websites, 
+Once the item has been scrapped at all three websites: Walmart, Target, and Amazon.
 
 Know functional UPC codes:
 	

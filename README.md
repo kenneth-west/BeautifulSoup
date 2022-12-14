@@ -2,6 +2,14 @@
 
 Description: This program is a lightweight webscraper used to scan commonly used websites for a user-input item. 
 
+Installing Environment:
+1. From the terminal/command prompt:
+	conda env create -f env.yml
+2. Activate the new environment:
+	conda activate myenv
+3. Verify environment installed succesfully:
+	conda env list
+
 Program Discription:
 1. PyQt5 GUI window opens and prompts user for an item name to search the web for
 PyQt5 assigns the user input as a string to a variable.

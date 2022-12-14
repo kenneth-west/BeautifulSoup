@@ -22,7 +22,7 @@ user_input = ''
 def storeString(inString):
     """
     This function takes the user input and searches three websites, namely,
-    Walmart, Amaon, and Kroger, for the requested item and scrapes name, price,
+    Walmart, Amazon, and Kroger, for the requested item and scrapes name, price,
     ratings, and UPC code of the all the products that show up in search results.
     All this info is stored in a dataframe whichwill be shown as an output.
 
@@ -95,6 +95,7 @@ def storeString(inString):
         """
         url = 'https://www.barcodespider.com/' + upc_code
         response = requests.get(scrapeops_url(url))
+        item_name = ''
         if upc_code.isnumeric() == True:
             # Check is entered input is UPC code or not
             # If it is UPC code - barcode spider will be scrapped to find out 
@@ -110,10 +111,12 @@ def storeString(inString):
             
                 script_tag = soup.find("div", {"class": "detailtitle"})
                 item_name = script_tag.h2.get_text()
+            elif response.status_code == 404:
+                print('UPC code not found on Barcode Spider')
         else:
             item_name = upc_code
         
-            return item_name
+        return item_name
 
     # Walmart Web Scrapping
 
@@ -342,10 +345,11 @@ def storeString(inString):
                                 },
                             ).get_text()
                             # Extra gives information like oz or pounds of item if applicable
-                            extra = s.find(
-                                "span",
-                                {"class": "kds-Text--s text-neutral-more-prominent"},
-                            ).get_text()
+                            
+                            if (s.find("span",{"class": "kds-Text--s text-neutral-more-prominent"},)== None):
+                                continue
+                            else:
+                                extra = s.find("span",{"class": "kds-Text--s text-neutral-more-prominent"},).get_text()
                             # Price of item with discounted price
                             
                             if (s.find("div",{"class": "flex justify-between items-center mb-8 mt-24"},)== None):

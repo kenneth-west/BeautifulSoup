@@ -10,6 +10,13 @@ Installing Environment:
 3. Verify environment installed succesfully:
 	conda env list
 
+Running the application:
+1. From the terminal/command prompt:
+	python Price_Comp_Tool.py
+
+Error note:
+	Errors are for T/S, the code is still running :)
+
 Program Discription:
 1. PyQt5 GUI window opens and prompts user for an item name to search the web for
 PyQt5 assigns the user input as a string to a variable.
@@ -20,13 +27,14 @@ PyQt5 assigns the user input as a string to a variable.
 GUI Description: Once the user initiates the program, a small window named webscrapper will appear that asks for the item name or descriptor.
 For the most accurate results type in the UPC code of the item. This is not necessary but helps the website narrow down the list of items being searched.
 Once the user is done typing the item description, hit Run. This will prompt the webscrapping application. The webscrapper item box will stay open throughout 
-the run. The item will then be searched through Walmart, Amazon and Krogers website. This process usually takes about 3 to 5 minutes to scrape the websites.
+the run. The item will then be searched through Walmart, Amazon and Krogers website. This process usually takes about 5 to 15 minutes to scrape the websites.
 Once the item has been scraped at all three websites: Walmart, Target, and Amazon.
 
-Know functional UPC codes:
-	
-	0001300000640
+Know functional search item:
+	"Heinz Ketchup"
 
+Known functional UPC code:
+	
 
 Output: 
 

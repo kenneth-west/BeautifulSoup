@@ -43,6 +43,9 @@ the run. The item will then be searched through Walmart, Amazon and Krogers webs
 Once the item has been scraped at all three websites: Walmart, Target, and Amazon.
 
 
+Note: Walmart doesn't use UPC code so if UPC code is entered by the user, BarcodeSpider.com will be used to extract the name associated with that UPC code which will then be used to extract information from Walmart website.
+
+
 Known functional search item:
 
 	"Heinz Ketchup"

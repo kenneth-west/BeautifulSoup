@@ -37,10 +37,12 @@ Once the item has been scraped at all three websites: Walmart, Target, and Amazo
 
 
 Known functional search item:
+
 	"Heinz Ketchup"
 
 
 Known functional UPC code:
+
 	"013000006057"
 
 Output: 

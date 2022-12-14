@@ -1,6 +1,8 @@
 # PriceComparisonTool
 
+
 Description: This program is a lightweight webscraper used to scan commonly used websites for a user-input item. 
+
 
 Installing Environment:
 1. From the terminal/command prompt:
@@ -14,8 +16,10 @@ Running the application:
 1. From the terminal/command prompt:
 	python Price_Comp_Tool.py
 
+
 Error note:
 	Errors are for T/S, the code is still running :)
+
 
 Program Discription:
 1. PyQt5 GUI window opens and prompts user for an item name to search the web for
@@ -24,17 +28,20 @@ PyQt5 assigns the user input as a string to a variable.
 3. An analysis portion of code loops through the collections dictionaries to refine the data into pandas database.
 4. A pandasGUI GUI window opens to display the outputs.
 
+
 GUI Description: Once the user initiates the program, a small window named webscrapper will appear that asks for the item name or descriptor.
 For the most accurate results type in the UPC code of the item. This is not necessary but helps the website narrow down the list of items being searched.
 Once the user is done typing the item description, hit Run. This will prompt the webscrapping application. The webscrapper item box will stay open throughout 
 the run. The item will then be searched through Walmart, Amazon and Krogers website. This process usually takes about 5 to 15 minutes to scrape the websites.
 Once the item has been scraped at all three websites: Walmart, Target, and Amazon.
 
-Know functional search item:
+
+Known functional search item:
 	"Heinz Ketchup"
 
+
 Known functional UPC code:
-	
+	"013000006057"
 
 Output: 
 
@@ -49,5 +56,6 @@ Carolyn Gerzina
 Yash Patel
 
 Kenneth West
+
 
 University of Florida

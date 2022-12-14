@@ -13,12 +13,18 @@ GUI Description: Once the user initiates the program, a small window named websc
 For the most accurate results type in the UPC code of the item. This is not necessary but helps the website narrow down the list of items being searched.
 Once the user is done typing the item description, hit Run. This will prompt the webscrapping application. The webscrapper item box will stay open throughout 
 the run. The item will then be searched through Walmart, Amazon and Krogers website. This process usually takes about 3 to 5 minutes to scrape the websites.
-Once the item has been scrapped at all three websites, the PandasGui will open and display the list of items found in the webscrapping process. This GUI will 
-contain the name of the item, the price, the star rating and the store name that it was found at. The Pandasgui will allow for easy data manipulation of the dataframe.
+Once the item has been scrapped at all three websites, 
 
 Know functional UPC codes:
 	
 	0001300000640
+
+
+Output: 
+
+The PandasGUI will open and display the list of items found in the webscrapping process. This GUI will 
+contain the name of the item, the price, the star rating and the store name that it was found at. The PandasGUI will allow for easy data manipulation of the dataframe.
+
 
 Price Comparison Tool Authors:
 
@@ -28,5 +34,4 @@ Yash Patel
 
 Kenneth West
 
-
-University of Florida# PriceComparisonTool
+University of Florida

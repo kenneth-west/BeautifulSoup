@@ -5,23 +5,23 @@ Description: This program is a lightweight webscraper used to scan commonly used
 
 
 Installing Environment:
-1. From the terminal/command prompt:
+1.From the terminal/command prompt:
 	
-	"conda env create -f env.yml"
+	conda env create -f env.yml
 
-2. Activate the new environment:
+2.Activate the new environment:
 	
-	"conda activate myenv"
+	conda activate myenv
 
-3. Verify environment installed succesfully:
+3.Verify environment installed succesfully:
 	
-	"conda env list"
+	conda env list
 
 
 Running the application:
-1. From the terminal/command prompt:
-	
-	"python Price_Comp_Tool.py"
+1.From the terminal/command prompt:
+
+	python Price_Comp_Tool.py
 
 
 Error note:
